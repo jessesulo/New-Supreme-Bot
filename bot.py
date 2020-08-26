@@ -6,10 +6,11 @@ from selenium.webdriver.support import expected_conditions as EC
 import random
 
 class bot():
-    def __init__(self, category, keyword):
+    def __init__(self, category, keyword, color):
         self.driver = self.loadNewDriver()
         self.category = category
         self.keyword = keyword.lower()
+        self.color = color.lower()
 
     #returns driver with properties
     def loadNewDriver(self):
@@ -54,14 +55,21 @@ class bot():
         return True
 
     def lookForItem(self):
-        elements = self.driver.find_elements_by_xpath("//li")
-        print(elements)
+        elements = self.driver.find_elements_by_xpath("//li/div/div")
         for i in elements:
-            print(i.text.lower())
-            if(i.text.lower().find(self.keyword) >= 0):
-                print(i.text)
+            if(i.get_attribute("class") == "product-name"):
+                if(i.text.lower().find(self.keyword) >= 0):
+                    if(elements[elements.index(i)+1].get_attribute("class") == "product-style"):
+                        if(elements[elements.index(i)+1].text.lower().find(self.color) >= 0):
+                            self.waitForRandom()
+                            i.click()
+                            self.waitForLoad()
+                            addItemToCart()
+                            break
 
-
+    def addItemToCart(self):
+        sizes = self.driver
+                
     #wait for page to be loaded
     def waitForLoad(self):
         try:
@@ -86,7 +94,7 @@ class bot():
 
 
 def main():
-    b = bot("shirts", "smurfs")
+    b = bot("sweatshirts", "Portrait", "black")
     b.loadSupremePage()
     b.goToItemPage()
     b.lookForItem()
