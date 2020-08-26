@@ -1,0 +1,1024 @@
+1598362946074	geckodriver	INFO	Listening on 127.0.0.1:56940
+1598362955541	geckodriver	INFO	Listening on 127.0.0.1:56960
+1598362976287	geckodriver	INFO	Listening on 127.0.0.1:56993
+1598363027288	geckodriver	INFO	Listening on 127.0.0.1:57091
+1598363030356	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofileyWGBM0"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598363032088	Marionette	INFO	Listening on port 57103
+1598363032371	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598363055370	Marionette	INFO	Stopped listening on port 57103
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598363431268	geckodriver	INFO	Listening on 127.0.0.1:57839
+1598363434329	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofileAxhTvV"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598363436415	Marionette	INFO	Listening on port 57852
+1598363436462	Marionette	WARN	TLS certificate errors will be ignored for this session
+[24144, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[24144, Chrome_ChildThread] WARNING: Unable to create pipe named "15376.34.636048937\1003642409" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 661"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:661:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:509:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:440:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:407:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2063:69
+addAllSources@resource://devtools/server/actors/thread.js:1446:14
+onSources@resource://devtools/server/actors/thread.js:1452:10
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 661, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 661: NS_ERROR_FAILURE: Failed to open input source 'file:///'
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1598365477617	Marionette	INFO	Stopped listening on port 57852
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofileQ0zpYu"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598363647928	Marionette	INFO	Listening on port 58355
+1598363647955	Marionette	WARN	TLS certificate errors will be ignored for this session
+[25288, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[25288, Chrome_ChildThread] WARNING: Unable to create pipe named "21744.34.320418034\1239565836" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+1598363653535	Marionette	ERROR	[19] No reply from Marionette:Register
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598363663162	Marionette	INFO	Stopped listening on port 58355
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598363959137	geckodriver	INFO	Listening on 127.0.0.1:59018
+1598363962228	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofilep0PlCD"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598363964101	Marionette	INFO	Listening on port 59028
+1598363964242	Marionette	WARN	TLS certificate errors will be ignored for this session
+[25344, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[25344, Chrome_ChildThread] WARNING: Unable to create pipe named "19500.34.982231228\531172244" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Channel error: cannot send/recv
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+console.error: (new SyntaxError("Unexpected token, expected \"=>\" (1:2457)", "resource://devtools/client/debugger/dist/parser-worker.js", 31892))
+JavaScript warning: resource://devtools/client/shared/demangle.js, line 0: Successfully compiled asm.js code (total compilation time 50ms)
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+console.error: (new SyntaxError("Unexpected token, expected \"=>\" (1:2457)", "resource://devtools/client/debugger/dist/parser-worker.js", 31892))
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+console.error: (new SyntaxError("Unexpected token, expected \"=>\" (1:2457)", "resource://devtools/client/debugger/dist/parser-worker.js", 31892))
+console.error: (new TypeError("item is null", "resource://devtools/client/storage/ui.js", 1168))
+1598364071355	Marionette	INFO	Stopped listening on port 59028
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598364976890	geckodriver	INFO	Listening on 127.0.0.1:60481
+1598364979978	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofileFNdUmy"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598364981703	Marionette	INFO	Listening on port 60493
+1598364981992	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598364985195	Marionette	INFO	Stopped listening on port 60493
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598365411774	geckodriver	INFO	Listening on 127.0.0.1:61402
+1598365414866	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofile2heA7c"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598365416634	Marionette	INFO	Listening on port 61413
+1598365416887	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598365441480	Marionette	INFO	Stopped listening on port 61413
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598365443853	geckodriver	INFO	Listening on 127.0.0.1:61581
+1598365446945	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofileAJYAnE"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598365448718	Marionette	INFO	Listening on port 61592
+1598365448960	Marionette	WARN	TLS certificate errors will be ignored for this session
+[14504, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[14504, Chrome_ChildThread] WARNING: Unable to create pipe named "5424.34.710400689\2008333625" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598365503712	Marionette	INFO	Stopped listening on port 61592
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598365511795	geckodriver	INFO	Listening on 127.0.0.1:61845
+1598365514875	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofilelhJ7xx"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598365516547	Marionette	INFO	Listening on port 61859
+1598365516889	Marionette	WARN	TLS certificate errors will be ignored for this session
+[13520, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[13520, Chrome_ChildThread] WARNING: Unable to create pipe named "22300.34.870568233\273058733" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598365529315	Marionette	INFO	Stopped listening on port 61859
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598365920473	geckodriver	INFO	Listening on 127.0.0.1:62604
+1598365923569	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofiledPiqtk"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598365925230	Marionette	INFO	Listening on port 62619
+1598365925583	Marionette	WARN	TLS certificate errors will be ignored for this session
+[21988, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[21988, Chrome_ChildThread] WARNING: Unable to create pipe named "23864.34.801039307\1754793165" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598365949341	Marionette	INFO	Stopped listening on port 62619
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598366085353	geckodriver	INFO	Listening on 127.0.0.1:62982
+1598366088451	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofileJSiemc"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598366090151	Marionette	INFO	Listening on port 62992
+1598366090476	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598366103431	Marionette	INFO	Stopped listening on port 62992
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598366394283	geckodriver	INFO	Listening on 127.0.0.1:63559
+1598366397465	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofileQqK8xF"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598366399088	Marionette	INFO	Listening on port 63572
+1598366399478	Marionette	WARN	TLS certificate errors will be ignored for this session
+[10916, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[10916, Chrome_ChildThread] WARNING: Unable to create pipe named "15936.34.106260514\1614370408" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598366720134	Marionette	INFO	Stopped listening on port 63572
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofile9dWFAS"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598366473941	Marionette	INFO	Listening on port 63875
+1598366474248	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: https://www.gstatic.com/mysidia/9fc27b25e3d1453af835d310f05ac521.js?tag=video_mra/web_fig_och, line 176: SecurityError: The operation is insecure.
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598366718955	Marionette	INFO	Stopped listening on port 63875
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofileHgD36z"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598366610647	Marionette	INFO	Listening on port 64196
+1598366611005	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1598366615820	Marionette	INFO	Stopped listening on port 64196
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598366705951	geckodriver	INFO	Listening on 127.0.0.1:64488
+1598366709038	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofile4jHJgq"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598366710759	Marionette	INFO	Listening on port 64500
+1598366711055	Marionette	WARN	TLS certificate errors will be ignored for this session
+[25280, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[25280, Chrome_ChildThread] WARNING: Unable to create pipe named "25112.34.842102659\1073656387" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript error: https://www.gstatic.com/mysidia/9fc27b25e3d1453af835d310f05ac521.js?tag=video_mra/web_fig_och, line 176: SecurityError: The operation is insecure.
+1598366716122	Marionette	INFO	Stopped listening on port 64500
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598366729468	geckodriver	INFO	Listening on 127.0.0.1:64677
+1598366732551	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofilexs0jtV"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598366734142	Marionette	INFO	Listening on port 64687
+1598366734565	Marionette	WARN	TLS certificate errors will be ignored for this session
+[3924, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[3924, Chrome_ChildThread] WARNING: Unable to create pipe named "22648.34.104863762\2033396021" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+1598366739820	Marionette	INFO	Stopped listening on port 64687
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598366761290	geckodriver	INFO	Listening on 127.0.0.1:64923
+1598366764382	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofile2dNfii"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598366765987	Marionette	INFO	Listening on port 64935
+1598366766397	Marionette	WARN	TLS certificate errors will be ignored for this session
+[23736, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[23736, Chrome_ChildThread] WARNING: Unable to create pipe named "14508.34.726267734\1807897155" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Channel error: cannot send/recv
+
+JavaScript error: https://www.gstatic.com/mysidia/9fc27b25e3d1453af835d310f05ac521.js?tag=video_mra/web_fig_och, line 176: SecurityError: The operation is insecure.
+1598366771197	Marionette	INFO	Stopped listening on port 64935
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598366818227	geckodriver	INFO	Listening on 127.0.0.1:65171
+1598366821317	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofilegKKkDG"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598366823006	Marionette	INFO	Listening on port 65181
+1598366823333	Marionette	WARN	TLS certificate errors will be ignored for this session
+[13620, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[13620, Chrome_ChildThread] WARNING: Unable to create pipe named "13500.34.1875554157\387490022" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+1598366827819	Marionette	INFO	Stopped listening on port 65181
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598366937018	geckodriver	INFO	Listening on 127.0.0.1:65444
+1598366940102	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofileRwhswI"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598366941740	Marionette	INFO	Listening on port 65456
+1598366942116	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598366973741	Marionette	INFO	Stopped listening on port 65451598366975020	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofilenrnqDl"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598366976670	Marionette	INFO	Listening on port 49289
+1598366977036	Marionette	WARN	TLS certificate errors will be ignored for this session
+[18572, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[18572, Chrome_ChildThread] WARNING: Unable to create pipe named "24192.34.1052464754\2119356811" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598366996464	Marionette	INFO	Stopped listening on port 49289
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598366997059	geckodriver	INFO	Listening on 127.0.0.1:49463
+1598367000144	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofilehjr865"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598367001780	Marionette	INFO	Listening on port 49474
+1598367002159	Marionette	WARN	TLS certificate errors will be ignored for this session
+[11840, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[11840, Chrome_ChildThread] WARNING: Unable to create pipe named "8720.34.1193987941\1288599686" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598367067136	Marionette	INFO	Stopped listening on port 49474
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofileqFmQlO"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598367066951	Marionette	INFO	Listening on port 49719
+1598367067261	Marionette	WARN	TLS certificate errors will be ignored for this session
+[8944, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[8944, Chrome_ChildThread] WARNING: Unable to create pipe named "11052.34.1497454552\891117070" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+1598367072728	Marionette	INFO	Stopped listening on port 49719
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+Exiting due to channel error.
+1598367152236	geckodriver	INFO	Listening on 127.0.0.1:49958
+1598367155333	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofileGS2dtn"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598367157040	Marionette	INFO	Listening on port 49970
+1598367157349	Marionette	WARN	TLS certificate errors will be ignored for this session
+[12272, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[12272, Chrome_ChildThread] WARNING: Unable to create pipe named "21992.34.1406624437\248203237" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598367171574	Marionette	INFO	Stopped listening on port 49970
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598367239380	geckodriver	INFO	Listening on 127.0.0.1:50208
+1598367242475	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofileKaR4aw"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598367244118	Marionette	INFO	Listening on port 50218
+1598367244489	Marionette	WARN	TLS certificate errors will be ignored for this session
+[15984, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[15984, Chrome_ChildThread] WARNING: Unable to create pipe named "19984.34.547137423\120602518" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598367281269	Marionette	INFO	Stopped listening on port 50218
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598367292139	geckodriver	INFO	Listening on 127.0.0.1:50417
+1598367295239	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofileFm0oyl"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598367296825	Marionette	INFO	Listening on port 50428
+1598367297252	Marionette	WARN	TLS certificate errors will be ignored for this session
+[828, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[828, Chrome_ChildThread] WARNING: Unable to create pipe named "20692.34.1581952731\1403223152" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:409:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2245))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2245))
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:409:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:409:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2245))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2245))
+1598367760358	Marionette	INFO	Stopped listening on port 50428
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598367762552	geckodriver	INFO	Listening on 127.0.0.1:51121
+1598367765640	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofilel2J6E8"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598367767244	Marionette	INFO	Listening on port 51133
+1598367767656	Marionette	WARN	TLS certificate errors will be ignored for this session
+[22924, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[22924, Chrome_ChildThread] WARNING: Unable to create pipe named "19500.34.250564190\98113326" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Channel error: cannot send/recv
+
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598367807612	Marionette	INFO	Stopped listening on port 51131598367809385	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofileY3feeQ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598367811035	Marionette	INFO	Listening on port 51370
+1598367811401	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/9fc27b25e3d1453af835d310f05ac521.js?tag=video_mra/web_fig_och, line 176: SecurityError: The operation is insecure.
+1598367816125	Marionette	INFO	Stopped listening on port 51370
+JavaScript error: , line 0: uncaught exception: undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598367906199	geckodriver	INFO	Listening on 127.0.0.1:51631
+1598367909281	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofileae3Z5e"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598367910980	Marionette	INFO	Listening on port 51643
+1598367911303	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1598367916170	Marionette	INFO	Stopped listening on port 51643
+console.error: (new Error("SessionFile is closed", "resource1598367934151	mozrunner::runner	INFO	Running commaExiting due to channel error.
+ Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofile0lk1JV"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598367935825	Marionette	INFO	Listening on port 51813
+1598367936172	Marionette	WARN	TLS certificate errors will be ignored for this session
+[25472, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[25472, Chrome_ChildThread] WARNING: Unable to create pipe named "23736.34.1749150488\253115707" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598368453182	Marionette	INFO	Stopped listening on port 51813
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofile7dDZQm"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598367984409	Marionette	INFO	Listening on port 52021
+1598367984782	Marionette	WARN	TLS certificate errors will be ignored for this session
+[16052, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[16052, Chrome_ChildThread] WARNING: Unable to create pipe named "5084.34.1819264181\38365107" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+1598367989468	Marionette	INFO	Stopped listening on port 52021
+JavaScript error: , line 0: uncaught exception: undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598368011784	geckodriver	INFO	Listening on 127.0.0.1:52191
+1598368014979	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofileMYXGp6"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598368016672	Marionette	INFO	Listening on port 52203
+1598368016996	Marionette	WARN	TLS certificate errors will be ignored for this session
+[22904, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[22904, Chrome_ChildThread] WARNING: Unable to create pipe named "20812.34.211259261\2075629011" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598368453807	Marionette	INFO	Stopped listening on port 52203
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofile8q78OZ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598368090950	Marionette	INFO	Listening on port 52483
+1598368091251	Marionette	WARN	TLS certificate errors will be ignored for this session
+[25544, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[25544, Chrome_ChildThread] WARNING: Unable to create pipe named "24432.34.483550088\764389544" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript error: https://www.gstatic.com/mysidia/9fc27b25e3d1453af835d310f05ac521.js?tag=video_mra/web_fig_och, line 176: SecurityError: The operation is insecure.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598368454279	Marionette	INFO	Stopped listening on port 52483
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofilea3uLNY"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598368169894	Marionette	INFO	Listening on port 52738
+1598368170217	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598368455114	Marionette	INFO	Stopped listening on port 52738
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofileF70LuP"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598368212562	Marionette	INFO	Listening on port 52947
+1598368212837	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: https://www.gstatic.com/mysidia/9fc27b25e3d1453af835d310f05ac521.js?tag=video_mra/web_fig_och, line 176: SecurityError: The operation is insecure.
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598368455962	Marionette	INFO	Stopped listening on port 52947
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofileWDC8I7"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598368252321	Marionette	INFO	Listening on port 53174
+1598368252628	Marionette	WARN	TLS certificate errors will be ignored for this session
+[28708, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[28708, Chrome_ChildThread] WARNING: Unable to create pipe named "28412.34.1959606194\957383418" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Channel error: cannot send/recv
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598368267810	Marionette	INFO	Stopped listening on port 53174
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598368329992	geckodriver	INFO	Listening on 127.0.0.1:53425
+1598368333269	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofilerz7tHM"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598368334923	Marionette	INFO	Listening on port 53436
+1598368335283	Marionette	WARN	TLS certificate errors will be ignored for this session
+[1120, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[1120, Chrome_ChildThread] WARNING: Unable to create pipe named "18672.34.418270720\1633980353" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598368343041	Marionette	INFO	Stopped listening on port 53436
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598368381597	geckodriver	INFO	Listening on 127.0.0.1:53650
+1598368384689	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofile3yYUsX"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598368386340	Marionette	INFO	Listening on port 53662
+1598368386705	Marionette	WARN	TLS certificate errors will be ignored for this session
+[27472, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[27472, Chrome_ChildThread] WARNING: Unable to create pipe named "26900.34.1247923068\691606278" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598368398329	Marionette	INFO	Stopped listening on port 53662
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598368404160	geckodriver	INFO	Listening on 127.0.0.1:53827
+1598368407257	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofile8hreyy"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598368408930	Marionette	INFO	Listening on port 53839
+1598368409271	Marionette	WARN	TLS certificate errors will be ignored for this session
+[25044, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[25044, Chrome_ChildThread] WARNING: Unable to create pipe named "26124.34.780100747\818196116" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598368456733	Marionette	INFO	Stopped listening on port 53839
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofileneyDUI"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598368443181	Marionette	INFO	Listening on port 54030
+1598368443503	Marionette	WARN	TLS certificate errors will be ignored for this session
+[25624, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[25624, Chrome_ChildThread] WARNING: Unable to create pipe named "24896.34.1606061164\506792569" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598368457398	Marionette	INFO	Stopped listening on port 54030
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598368461756	geckodriver	INFO	Listening on 127.0.0.1:54197
+1598368464845	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofileD1cjxT"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598368466484	Marionette	INFO	Listening on port 54209
+1598368466859	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:409:10
+
+console.error: (new SyntaxError("Unexpected token, expected \"=>\" (1:2470)", "resource://devtools/client/debugger/dist/parser-worker.js", 31892))
+1598370294724	Marionette	INFO	Stopped listening on port 54209
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598370397395	geckodriver	INFO	Listening on 127.0.0.1:57017
+1598370400493	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofileCHTIws"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598370402210	Marionette	INFO	Listening on port 57028
+1598370402509	Marionette	WARN	TLS certificate errors will be ignored for this session
+[26576, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[26576, Chrome_ChildThread] WARNING: Unable to create pipe named "28108.34.172651864\479027176" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598370428117	Marionette	INFO	Stopped listening on port 57028
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598371062154	geckodriver	INFO	Listening on 127.0.0.1:58017
+1598371065254	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofileJ9VgfG"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598371066905	Marionette	INFO	Listening on port 58028
+1598371067267	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598371069814	Marionette	INFO	Stopped listening on port 58028
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598371261396	geckodriver	INFO	Listening on 127.0.0.1:58309
+1598371264482	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofile0YGlQq"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598371266178	Marionette	INFO	Listening on port 58333
+1598371266501	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598371682944	Marionette	INFO	Stopped listening on port 58333
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofilegJ1psg"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598371306461	Marionette	INFO	Listening on port 58539
+1598371306830	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598371679956	Marionette	INFO	Stopped listening on port 58539
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofileXV4j3u"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598371335932	Marionette	INFO	Listening on port 58747
+1598371336207	Marionette	WARN	TLS certificate errors will be ignored for this session
+[23980, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[23980, Chrome_ChildThread] WARNING: Unable to create pipe named "4568.34.1948405167\632188692" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598371680447	Marionette	INFO	Stopped listening on port 58747
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofilef6bnAx"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598371589821	Marionette	INFO	Listening on port 59251
+1598371590203	Marionette	WARN	TLS certificate errors will be ignored for this session
+[8804, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[8804, Chrome_ChildThread] WARNING: Unable to create pipe named "13860.34.485554234\974343224" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598371680887	Marionette	INFO	Stopped listening on port 59251
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofileUDCGAN"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598371653008	Marionette	INFO	Listening on port 59488
+1598371653306	Marionette	WARN	TLS certificate errors will be ignored for this session
+[22664, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[22664, Chrome_ChildThread] WARNING: Unable to create pipe named "22964.34.1620785963\1186912288" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript error: https://www.gstatic.com/mysidia/9fc27b25e3d1453af835d310f05ac521.js?tag=video_mra/web_fig_och, line 176: SecurityError: The operation is insecure.
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598371682747	Marionette	INFO	Stopped listening on port 59488
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofilewmJ6sV"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598371681016	Marionette	INFO	Listening on port 59690
+1598371681158	Marionette	WARN	TLS certificate errors will be ignored for this session
+[27344, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[27344, Chrome_ChildThread] WARNING: Unable to create pipe named "26748.34.331786671\16761993" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Channel error: cannot send/recv
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598371710807	Marionette	INFO	Stopped listening on port 59690
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598371723481	geckodriver	INFO	Listening on 127.0.0.1:59884
+1598371726576	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofilePHOObc"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598371728188	Marionette	INFO	Listening on port 59895
+1598371728599	Marionette	WARN	TLS certificate errors will be ignored for this session
+[22780, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[22780, Chrome_ChildThread] WARNING: Unable to create pipe named "23700.34.832670925\1019894128" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Channel error: cannot send/recv
+
+JavaScript error: https://www.gstatic.com/mysidia/9fc27b25e3d1453af835d310f05ac521.js?tag=video_mra/web_fig_och, line 176: SecurityError: The operation is insecure.
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598371819284	Marionette	INFO	Stopped listening on port 59895
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofileHRKWeD"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598371762426	Marionette	INFO	Listening on port 60092
+1598371762820	Marionette	WARN	TLS certificate errors will be ignored for this session
+[17364, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[17364, Chrome_ChildThread] WARNING: Unable to create pipe named "25696.34.448848952\1364096525" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 65
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Channel error: cannot send/recv
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598371775631	Marionette	INFO	Stopped listening on port 60092
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598371816879	geckodriver	INFO	Listening on 127.0.0.1:60307
+1598371819955	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofilewx1QL3"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598371821621	Marionette	INFO	Listening on port 60320
+1598371821968	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 8712, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 524
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598371838250	Marionette	INFO	Stopped listening on port 60320
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598382355023	geckodriver	INFO	Listening on 127.0.0.1:57153
+1598382358136	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofilevCIHI3"
+1598382413564	geckodriver	INFO	Listening on 127.0.0.1:57295
+1598382416658	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofileMiegVz"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598382418360	Marionette	INFO	Listening on port 57309
+1598382418673	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390138,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598382474435	Marionette	INFO	Stopped listening on port 57309
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598382580683	geckodriver	INFO	Listening on 127.0.0.1:57669
+1598382583749	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofile2Rq1tx"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598382585443	Marionette	INFO	Listening on port 57679
+1598382585762	Marionette	WARN	TLS certificate errors will be ignored for this session
+[11688, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 238
+[11688, Chrome_ChildThread] WARNING: Unable to create pipe named "10832.34.1275772124\2014501204" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 71
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript error: https://www.gstatic.com/mysidia/9fc27b25e3d1453af835d310f05ac521.js?tag=video_mra/web_fig_och, line 176: SecurityError: The operation is insecure.
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598382611499	Marionette	INFO	Stopped listening on port 57679
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598382613582	geckodriver	INFO	Listening on 127.0.0.1:57857
+1598382616670	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofileEwyQ6u"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598382618441	Marionette	INFO	Listening on port 57872
+1598382618685	Marionette	WARN	TLS certificate errors will be ignored for this session
+[15000, Chrome_ChildThread] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 238
+[15000, Chrome_ChildThread] WARNING: Unable to create pipe named "23444.34.1218125218\236181864" in client mode.: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 71
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+JavaScript error: https://www.gstatic.com/mysidia/9fc27b25e3d1453af835d310f05ac521.js?tag=video_mra/web_fig_och, line 176: SecurityError: The operation is insecure.
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598382677027	Marionette	INFO	Stopped listening on port 57872
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598382685316	geckodriver	INFO	Listening on 127.0.0.1:58108
+1598382688510	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofileh6qvyz"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598382690213	Marionette	INFO	Listening on port 58120
+1598382690531	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/9fc27b25e3d1453af835d310f05ac521.js?tag=video_mra/web_fig_och, line 176: SecurityError: The operation is insecure.
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598382797899	Marionette	INFO	Stopped listening on port 58120
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598382802564	geckodriver	INFO	Listening on 127.0.0.1:58412
+1598382805658	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duane\\AppData\\Local\\Temp\\rust_mozprofilehg035n"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598382807340	Marionette	INFO	Listening on port 58423
+1598382807677	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+JavaScript warning: https://d17ol771963kd3.cloudfront.net/assets/application-0865965974b8e25e8f8ed926f6a0c80c.js, line 18903: unreachable code after return statement
+1598387081065	Marionette	INFO	Stopped listening on port 58423
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
