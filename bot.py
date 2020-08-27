@@ -6,11 +6,12 @@ from selenium.webdriver.support import expected_conditions as EC
 import random
 
 class bot():
-    def __init__(self, category, keyword, color):
+    def __init__(self, category, keyword, color, size):
         self.driver = self.loadNewDriver()
         self.category = category
         self.keyword = keyword.lower()
         self.color = color.lower()
+        self.size = size
 
     #returns driver with properties
     def loadNewDriver(self):
@@ -26,22 +27,31 @@ class bot():
 
     #uses backlink and loads page
     def loadSupremePage(self):
-        self.driver.get("https://godmeetsfashion.com/")
+        #backlink link
+        self.driver.get("https://www.gq.com/story/supreme-online-sale-2020")
         self.waitForLoad()
+        
+        try:
+            backlink = self.driver.find_element_by_xpath("//a[contains(@href,'https://www.supremenewyork.com/')]")
+            backlink.click()
+            self.driver.close()
+            self.driver.switch_to.window(self.driver.window_handles[0])
+        except:
+#MAKE THIS MORE DYNAMIC
+            print("Backlink failed")
+            self.driver.get("https://www.supremenewyork.com/")
 
-        backlink = self.driver.find_element_by_xpath("//a[@href='https://www.supremenewyork.com/']")
-        backlink.click()
         self.waitForLoad()
-
-        self.driver.close()
-        self.driver.switch_to.window(self.driver.window_handles[0])
+        return True
 
     #goes to category page
     def goToItemPage(self):
-        self.waitForElement("//a[@href='/shop']")
-        shopBtn = self.driver.find_element_by_xpath("//a[@href='/shop']")
-        shopBtn.click()
-        self.waitForRandom()
+        print(self.driver.current_url)
+        if(self.driver.current_url == "https://www.supremenewyork.com/"):
+            self.waitForElement("//a[@href='/shop']")
+            shopBtn = self.driver.find_element_by_xpath("//a[@href='/shop']")
+            shopBtn.click()
+            self.waitForRandom()
 
         self.waitForElement("//a[@href='http://www.supremenewyork.com/shop/all']")
         viewAll = self.driver.find_element_by_xpath("//a[@href='http://www.supremenewyork.com/shop/all']")
@@ -63,12 +73,22 @@ class bot():
                         if(elements[elements.index(i)+1].text.lower().find(self.color) >= 0):
                             self.waitForRandom()
                             i.click()
+                            self.waitForRandom()
                             self.waitForLoad()
-                            addItemToCart()
-                            break
+                            self.addItemToCart()
+                            return True
+        return False
 
     def addItemToCart(self):
-        sizes = self.driver
+        sizes = self.driver.find_element_by_id("s")
+        for i in sizes.find_elements_by_tag_name("option"):
+            if(i.text.lower() == self.size.lower()):
+                i.click()
+        self.waitForRandom()
+        self.driver.find_element_by_xpath("//input[@name='commit']").click()
+        self.waitForRandom()
+        self.driver.get("https://www.supremenewyork.com/checkout")
+
                 
     #wait for page to be loaded
     def waitForLoad(self):
@@ -94,7 +114,7 @@ class bot():
 
 
 def main():
-    b = bot("sweatshirts", "Portrait", "black")
+    b = bot("sweatshirts", "Portrait", "black", "medium")
     b.loadSupremePage()
     b.goToItemPage()
     b.lookForItem()
